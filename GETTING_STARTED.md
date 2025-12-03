@@ -72,21 +72,28 @@ streamlit run app.py
 
 ## 📋 WHAT TO DO IN WHAT ORDER
 
-### ✅ Step 1: Test Locally First (5 minutes)
+### ✅ Step 1: Test Secure Application First (5 minutes)
 
-1. **Run the dashboard**
+1. **Run the secure dashboard**
    ```powershell
    pip install -r requirements.txt
    streamlit run app.py
    ```
 
-2. **Try "Custom Reviews" mode**
-   - No data files needed!
-   - Just paste some reviews and test
+2. **Register/Login (New Security Feature)**
+   - **First time**: Create account with username/password
+   - **Security**: Passwords encrypted with PBKDF2
+   - **Sessions**: 24-hour secure sessions with tracking
 
-3. **Verify it works**
-   - You should see sentiment analysis
-   - AI summaries should generate
+3. **Try analysis with authentication**
+   - Access personalized user dashboard
+   - View your activity statistics
+   - All actions logged for audit trail
+
+4. **Verify secure features work**
+   - You should see sentiment analysis with ethical safeguards
+   - AI summaries with bias detection
+   - Complete activity logging in user dashboard
 
 ### ✅ Step 2: Run Phase 1 Notebook (Optional, 15 minutes)
 

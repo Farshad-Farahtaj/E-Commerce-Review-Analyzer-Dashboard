@@ -1,27 +1,29 @@
-# Quick Start Guide
+# 🔐 Secure Quick Start Guide
 
-## 🚀 Get Started in 5 Minutes
+## 🚀 Get Started in 5 Minutes with Full Authentication
 
-### Option 1: Run Locally
+### Option 1: Run Locally with Security
 
 1. **Install dependencies**
 ```bash
 pip install -r requirements.txt
 ```
 
-2. **Generate sample data** (Optional - skip to use custom reviews)
-   - Open `phase1_colab_notebook.ipynb` in Google Colab
-   - Run all cells to generate `processed_reviews.csv`
-   - Download and place in project root
-
-3. **Launch dashboard**
+2. **Launch secure dashboard**
 ```bash
 streamlit run app.py
 ```
 
-4. **Open browser**
+3. **Register/Login**
    - Navigate to `http://localhost:8501`
-   - Start analyzing reviews!
+   - **First time**: Click "Register" to create account
+   - **Returning**: Login with your credentials
+   - **Security**: All passwords encrypted, sessions tracked
+
+4. **Start analyzing securely**
+   - Access personalized user dashboard
+   - View your activity history
+   - Analyze reviews with full audit trail
 
 ### Option 2: Run with Docker
 

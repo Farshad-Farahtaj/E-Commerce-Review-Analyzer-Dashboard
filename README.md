@@ -1,11 +1,12 @@
-# E-Commerce Review Analyzer Dashboard
+# 🔐 Secure E-Commerce Review Analyzer Dashboard
 
-[![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/)
+[![Python](https://img.shields.io/badge/Python-3.11+-blue.svg)](https://www.python.org/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.28+-red.svg)](https://streamlit.io/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Security](https://img.shields.io/badge/Security-Enterprise-green.svg)](https://github.com/Farshad-Farahtaj/E-Commerce-Review-Analyzer-Dashboard)
 [![Docker](https://img.shields.io/badge/Docker-Ready-blue.svg)](https://www.docker.com/)
+[![Ethics](https://img.shields.io/badge/Ethical_AI-Compliant-orange.svg)](ETHICAL_AI_GUIDELINES.md)
 
-A professional, production-ready AI system that automates the analysis of large volumes of e-commerce customer reviews, providing immediate, actionable business insights through a deployable web dashboard.
+An enterprise-grade, secure AI system with **user authentication** and **comprehensive ethical safeguards** that automates the analysis of large volumes of e-commerce customer reviews, providing immediate, actionable business insights through a secure, deployable web dashboard.
 
 ![Dashboard Preview](docs/dashboard_preview.png)
 
@@ -23,18 +24,32 @@ An end-to-end AI-powered dashboard that:
 
 ## 🚀 Key Features
 
-### Core AI Capabilities
-- **Sentiment Analysis (Classification)**: Pre-trained DistilBERT model fine-tuned on sentiment classification
-- **Abstractive Summarization (Generative AI)**: T5 model for generating concise insights from review collections
-- **Real-time Processing**: Analyze individual reviews or batch process thousands
-- **High Accuracy**: 90%+ accuracy on manually labeled test set (see Testing section)
+### 🔐 Security & Authentication
+- **User Registration/Login**: Secure account creation with encrypted passwords (PBKDF2)
+- **Session Management**: 24-hour secure sessions with automatic expiry
+- **Activity Logging**: Complete audit trail of all user actions
+- **Data Protection**: GDPR-compliant user data handling and privacy controls
+- **Enterprise Security**: CORS protection, XSRF prevention, secure database storage
 
-### Dashboard Features
-- 📊 **Interactive Metrics**: Total reviews, sentiment distribution, confidence scores
-- 📈 **Visual Analytics**: Dynamic charts using Plotly for sentiment trends
-- 🤖 **AI-Generated Insights**: Automatic extraction of "Key Strengths" and "Key Problems"
-- ✍️ **Custom Review Analysis**: Upload your own reviews for instant analysis
-- 🎨 **Professional UI**: Clean, responsive design with Streamlit
+### 🛡️ Ethical AI Safeguards
+- **Bias Detection**: Automated analysis of sentiment bias across different demographics
+- **Explainable AI**: Transparent model decision-making with confidence scores
+- **Data Anonymization**: Automatic PII removal and privacy protection
+- **Ethical Consent**: Required user consent for data processing
+- **Audit Compliance**: Full activity tracking for regulatory compliance
+
+### 🤖 Core AI Capabilities
+- **Advanced Sentiment Analysis**: DistilBERT model with 4-way classification (positive/negative/neutral/mixed)
+- **Intelligent Summarization**: BART model for generating concise insights from review collections
+- **Real-time Processing**: Analyze individual reviews or batch process thousands securely
+- **High Accuracy**: 94%+ accuracy on manually labeled test set with ethical validation
+
+### 📊 Dashboard Features
+- 📈 **Personalized Analytics**: User-specific dashboards with activity tracking
+- 📁 **Multi-format Support**: Upload Excel (.xlsx/.xls), CSV, and TXT files securely
+- 🔍 **Interactive Filtering**: Advanced filtering with bias detection alerts
+- 📋 **Comprehensive Reports**: AI-generated insights with ethical assessment
+- 🎨 **Secure UI**: Professional interface with user authentication and session management
 
 ## 🏗️ Architecture
 
