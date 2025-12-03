@@ -1,0 +1,76 @@
+# .gitignore for E-Commerce Review Analyzer Dashboard
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# Environment variables
+.env
+.env.local
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Data files (keep test_dataset.csv but ignore processed data)
+processed_reviews.csv
+accuracy_test_results.csv
+accuracy_summary.csv
+*.png
+*.jpg
+*.jpeg
+
+# Model cache
+models_cache/
+.cache/
+*.bin
+
+# OS specific
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
+
+# Docker
+.dockerignore
+
+# Temporary files
+temp/
+tmp/
