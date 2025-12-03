@@ -374,11 +374,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👨‍💻 Author
 
-**Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourprofile)
-- Email: your.email@example.com
-
+*My Information*
+- GitHub:[ [[@yourusername](https://github.com/yourusername)](https://github.com/Farshad-Farahtaj)](https://github.com/Farshad-Farahtaj)
+- LinkedIn: www.linkedin.com/in/farshad-farahtaj-917118258
+- Email: farshad.farahtaj7@gmail.com
 ## 🙏 Acknowledgments
 
 - **Hugging Face** for transformer models and datasets
@@ -411,8 +410,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📞 Support
 
 For issues, questions, or suggestions:
-- Open an issue on [GitHub Issues](https://github.com/yourusername/ecommerce-review-analyzer/issues)
-- Email: support@yourproject.com
+- Open an issue on [[GitHub Issues](https://github.com/yourusername/ecommerce-review-analyzer/issues)](https://github.com/Farshad-Farahtaj)
+- Email: farshad.farahtaj7@gmail.com
 
 ---
 
