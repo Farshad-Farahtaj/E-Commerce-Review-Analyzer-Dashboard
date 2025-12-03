@@ -375,7 +375,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 👨‍💻 Author
 
 *My Information*
-- GitHub:[ [[@yourusername](https://github.com/yourusername)](https://github.com/Farshad-Farahtaj)](https://github.com/Farshad-Farahtaj)
+- GitHub:[(https://github.com/yourusername)](https://github.com/Farshad-Farahtaj)](https://github.com/Farshad-Farahtaj)
 - LinkedIn: www.linkedin.com/in/farshad-farahtaj-917118258
 - Email: farshad.farahtaj7@gmail.com
 ## 🙏 Acknowledgments
