@@ -1,12 +1,12 @@
-# Docker Compose Configuration for E-Commerce Review Analyzer
+# Docker Compose Configuration for Secure E-Commerce Review Analyzer
 version: '3.8'
 
 services:
-  review-analyzer:
+  secure-review-analyzer:
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: ecommerce-review-analyzer
+    container_name: secure-ecommerce-analyzer
     ports:
       - "8501:8501"
     environment:
@@ -14,17 +14,45 @@ services:
       - STREAMLIT_SERVER_PORT=8501
       - STREAMLIT_SERVER_ADDRESS=0.0.0.0
       - TRANSFORMERS_CACHE=/app/models_cache
+      - STREAMLIT_THEME_BASE=light
+      - STREAMLIT_SERVER_ENABLE_CORS=false
+      - STREAMLIT_SERVER_ENABLE_XSRF_PROTECTION=true
     volumes:
+      # Data persistence for uploaded files
       - ./data:/app/data
+      # User database persistence for authentication
+      - user_database:/app/user_data
+      # Model cache for AI models
       - models_cache:/app/models_cache
+      # Configuration files
+      - ./.streamlit:/app/.streamlit
     restart: unless-stopped
     healthcheck:
       test: ["CMD", "curl", "-f", "http://localhost:8501/_stcore/health"]
       interval: 30s
       timeout: 10s
       retries: 3
-      start_period: 40s
+      start_period: 60s
+    deploy:
+      resources:
+        limits:
+          memory: 4G
+          cpus: '2.0'
+        reservations:
+          memory: 2G
+          cpus: '1.0'
+    networks:
+      - analyzer_network
+
+networks:
+  analyzer_network:
+    driver: bridge
+    name: secure_analyzer_net
 
 volumes:
   models_cache:
     driver: local
+    name: ai_models_cache
+  user_database:
+    driver: local  
+    name: secure_user_db
